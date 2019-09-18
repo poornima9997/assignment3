@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Karla|Rubik&display=swap"rel="stylesheet"/>
+</head>    
+<body>
+<div id="leftform">
+<form action="/action_page.php">
+ 
+
+  <fieldset >  
+      <label for="Emailid">Emailid:</label> 
+    <input type="text" name="email id" value="" autocomplete="off">
+    <br><br>
+    <label for="username">username:</label>
+    <input type="text" name="User name" value="">
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="Password" value="">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+            <button type="button" onclick="alert('left form submitted')">Submit</button>
+ </center>
+  </fieldset>
+</form>
+</div>
+<div id="rightform">
+        <form action="/action_page.php">
+            <fieldset>
+              <label for="First name">Firstname:</label>
+              <input type="text" name="firstname" value="">
+              <br><br>
+              <label for="Lastname">Last name:</label>
+              <input type="text" name="lastname" value="">
+              <br><br>
+              <label for="dob">DOB:</label>
+              <input type="text" name="DOB" value="">
+              <br><br>
+              <label for="city">City:</label>
+              <input type="text" name="lastname" value="">
+              <br><br>
+              <label for="mobilenumber">Mobile number:</label>
+              <input type="text" name="lastname" value="">
+              <br><br>
+              <label for="gender">Gender:</label>
+              <br>
+              <input type="radio" name="gender" value="male" checked> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+              <input type="radio" name="gender" value="other"> Other
+             <br><br>
+             <label for="Employment status">Employment status:</label><br>
+             <select name=" Employment status">
+                    <option value="">worker</option>
+                    <option value="employee">employee</option>
+                    <option value="self-employed">self-employed</option>
+                    <option value="student">student</option>
+                  </select>
+            <center>
+              <br><br><br><br><br>
+          <button type="button" onclick="alert('Right form submitted')">Submit</button>
+
+            </center>
+            </fieldset>
+          </form>
+</div>
+
+</body>
+</html>
+
+
+
+

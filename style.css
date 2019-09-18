@@ -1,0 +1,18 @@
+body {
+    background-color: #ff9c91;
+    font-family: "Rubik", sans-serif;
+    color: #1c2938;
+  }
+#leftform{
+    width: 50%;
+    float: left;
+    }
+ #rightform{
+    width: 50%;
+    float: left;
+    }
+ label{
+     width:240px;
+     display:inline-block;
+ }   
+        
